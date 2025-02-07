@@ -50,3 +50,26 @@
 .card-trainer:hover::before {
     opacity: 1;
 }
+
+@media (hover:none) and (pointer: coarse) {
+    .card-trainer-name {
+        opacity: 1;
+        top: 50%;
+    }
+
+    .card-trainer::before {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 800px) {
+    .card-trainer-name {
+        font-size: 32px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .card-trainer-name {
+        border-radius: 10px;
+    }
+}
