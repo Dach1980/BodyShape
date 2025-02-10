@@ -18,16 +18,13 @@ a {
     color: #ffffff;
 }
 
-/* .title-1 {
-    font-family: var(--font-accent);
-    color: var(--accent);
-    font-weight: bold;
-    font-size: 96px;
-} */
-
 .container {
     margin: 0 auto;
     padding: 0 15px;
     max-width: 1200px;
     width: 100%;
+}
+
+.container-contacts {
+    max-width: 615px;
 }
